@@ -1,5 +1,5 @@
   
-node('master'){
+node('slave-01'){
     stage('scm'){
         git 'https://github.com/wakaleo/game-of-life.git'
     }
